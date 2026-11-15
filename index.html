@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Fiestas de la Empanada, el Dulce y el Postre 2026 · San Antonio de Pereira</title>
+<meta name="description" content="Programación en vivo, puestos, sabores y cómo llegar a las 25.ª Fiestas de la Empanada, el Dulce y el Postre en San Antonio de Pereira, Rionegro. 13 al 16 de noviembre de 2026. Entrada libre.">
+<meta name="theme-color" content="#2a0e04">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Fiestas de la Empanada, el Dulce y el Postre 2026">
+<meta property="og:description" content="San Antonio de Pereira, Rionegro · 13 al 16 de noviembre · 25 años · Entrada libre. Programación en vivo, puestos y cómo llegar.">
+<meta property="og:image" content="https://fiestas-empanada-rionegro.netlify.app/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://fiestas-empanada-rionegro.netlify.app/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://fiestas-empanada-rionegro.netlify.app/og-image.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--choc:#2a0e04;--cafe:#5a2410;--naranja:#e85d04;--dorado:#ffc45c;--crema:#fff6ea;--fresa:#d7263d;--txt:#2a1a12}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Outfit,system-ui,sans-serif;background:var(--crema);color:var(--txt);overflow-x:hidden}
+img{display:block;max-width:100%}
+h1,h2,h3{font-family:Fraunces,Georgia,serif;line-height:1.05}
+/* top bar */
+.bar{position:fixed;top:0;left:0;right:0;z-index:50;display:flex;align-items:center;justify-content:space-between;padding:10px 16px;background:rgba(42,14,4,.82);backdrop-filter:blur(10px);color:#fff}
+.bar b{font-family:Fraunces,serif;font-size:1rem;letter-spacing:.3px}
+.bar b span{color:var(--dorado)}
+.bar .acts{display:flex;gap:8px}
+.btn-s{border:1px solid rgba(255,255,255,.35);background:transparent;color:#fff;border-radius:999px;padding:6px 12px;font:600 .8rem Outfit;cursor:pointer}
+.btn-s.on{background:var(--dorado);color:var(--choc);border-color:var(--dorado)}
+/* hero */
+.hero{position:relative;height:100svh;min-height:560px;overflow:hidden;color:#fff}
+.slide{position:absolute;inset:0;background-size:cover;background-position:center 70%;opacity:0;transform:scale(1.08);transition:opacity 1.6s ease,transform 7s ease}
+.slide.on{opacity:1;transform:scale(1)}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(42,14,4,.25) 0%,rgba(42,14,4,.35) 40%,rgba(42,14,4,.95) 100%)}
+.hero-in{position:absolute;left:0;right:0;bottom:0;z-index:2;padding:0 20px 34px;max-width:760px}
+.chip{display:inline-block;background:var(--naranja);color:#fff;font-weight:800;font-size:.78rem;letter-spacing:1px;padding:6px 12px;border-radius:4px;text-transform:uppercase;animation:pulse 2.4s infinite}
+@keyframes pulse{50%{box-shadow:0 0 0 8px rgba(232,93,4,0)}0%{box-shadow:0 0 0 0 rgba(232,93,4,.7)}}
+.hero h1{font-size:clamp(2.3rem,9vw,4.4rem);font-weight:900;margin:14px 0 8px}
+.hero h1 em{font-style:normal;color:var(--dorado);display:block}
+.hero p{font-size:1.05rem;opacity:.92}
+.lema{font-family:Fraunces,serif;font-style:italic;margin-top:10px;color:var(--dorado)}
+.count{display:flex;gap:10px;margin-top:18px}
+.count div{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);border-radius:10px;padding:8px 10px;min-width:62px;text-align:center}
+.count b{display:block;font-size:1.5rem;font-family:Fraunces,serif}
+.count small{font-size:.65rem;text-transform:uppercase;letter-spacing:1px;opacity:.8}
+.cta{display:flex;gap:10px;margin-top:18px;flex-wrap:wrap}
+.btn{display:inline-block;text-decoration:none;font-weight:800;padding:13px 20px;border-radius:999px;background:var(--dorado);color:var(--choc);border:0;cursor:pointer;font-family:Outfit;font-size:.95rem}
+.btn.alt{background:transparent;color:#fff;border:2px solid #fff}
+/* ticker */
+.ticker{background:var(--naranja);color:#fff;overflow:hidden;white-space:nowrap;font-weight:800;font-size:.9rem;padding:10px 0;text-transform:uppercase;letter-spacing:1px}
+.ticker div{display:inline-block;animation:tick 38s linear infinite;padding-left:100%}
+@keyframes tick{to{transform:translateX(-100%)}}
+section{padding:46px 18px;max-width:1000px;margin:0 auto}
+.kick{color:var(--naranja);font-weight:800;text-transform:uppercase;font-size:.78rem;letter-spacing:2px}
+section h2{font-size:clamp(1.8rem,6vw,2.6rem);margin:6px 0 18px;color:var(--choc)}
+/* ahora */
+.ahora{background:var(--choc);color:#fff;border-radius:22px;padding:22px;position:relative;overflow:hidden}
+.ahora::before{content:"";position:absolute;right:-60px;top:-60px;width:200px;height:200px;border-radius:50%;background:radial-gradient(var(--naranja),transparent 70%);opacity:.5;animation:glow 3s ease-in-out infinite alternate}
+@keyframes glow{to{transform:scale(1.3);opacity:.25}}
+.live{display:inline-flex;align-items:center;gap:8px;font-weight:800;font-size:.78rem;letter-spacing:2px;text-transform:uppercase;color:var(--dorado)}
+.dot{width:10px;height:10px;border-radius:50%;background:var(--fresa);animation:blink 1s infinite}
+@keyframes blink{50%{opacity:.2}}
+.ahora h3{font-size:clamp(1.6rem,6vw,2.3rem);margin:10px 0 4px;position:relative}
+.ahora .hora{opacity:.8}
+.next{margin-top:18px;border-top:1px solid rgba(255,255,255,.15);padding-top:14px;display:grid;gap:10px}
+.next div{display:flex;gap:12px;align-items:baseline}
+.next b{color:var(--dorado);min-width:74px;font-size:.9rem}
+.reloj{position:absolute;right:20px;top:20px;font-family:Fraunces,serif;font-size:1.1rem;color:var(--dorado)}
+/* dias */
+.tabs{display:flex;gap:8px;overflow-x:auto;padding-bottom:6px;scrollbar-width:none}
+.tab{flex:0 0 auto;border:2px solid var(--choc);background:#fff;color:var(--choc);border-radius:14px;padding:10px 14px;font:800 .9rem Outfit;cursor:pointer;text-align:left}
+.tab small{display:block;font-weight:400;font-size:.72rem}
+.tab.on{background:var(--choc);color:#fff}
+.tab.hoy{border-color:var(--naranja)}
+.lista{margin-top:16px;display:grid;gap:8px}
+.item{display:grid;grid-template-columns:82px 1fr;gap:12px;background:#fff;border-radius:14px;padding:13px 14px;border-left:5px solid var(--dorado);box-shadow:0 2px 10px rgba(42,14,4,.06);transition:transform .2s}
+.item:hover{transform:translateX(4px)}
+.item b{font-family:Fraunces,serif;color:var(--cafe)}
+.item.past{opacity:.45}
+.item.now{border-left-color:var(--fresa);background:#fff0ec}
+.item .tag{display:inline-block;font-size:.66rem;font-weight:800;letter-spacing:1px;text-transform:uppercase;padding:2px 7px;border-radius:4px;margin-top:4px;background:#f3e2cf;color:var(--cafe)}
+.item .tag.c{background:var(--naranja);color:#fff}
+/* puestos */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px}
+.card{background:#fff;border-radius:20px;overflow:hidden;box-shadow:0 6px 24px rgba(42,14,4,.1);transition:transform .3s}
+.card:hover{transform:translateY(-6px)}
+.card .ph{height:210px;background-size:cover;background-position:center;position:relative}
+.card .ph span{position:absolute;left:12px;bottom:12px;background:var(--choc);color:var(--dorado);font-weight:800;font-size:.72rem;padding:5px 9px;border-radius:6px;letter-spacing:1px;text-transform:uppercase}
+.card .bd{padding:16px}
+.card h3{font-size:1.35rem;color:var(--choc)}
+.card p{font-size:.92rem;margin-top:6px;line-height:1.45}
+.card .lnk{display:inline-block;margin-top:12px;font-weight:800;color:var(--naranja);text-decoration:none}
+.menu{margin-top:10px;font-size:.85rem;display:grid;gap:4px}
+.menu div{display:flex;justify-content:space-between;border-bottom:1px dashed #e7d3bd;padding-bottom:3px}
+/* galeria */
+.gal{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:10px}
+.gal img{height:300px;width:auto;border-radius:16px;scroll-snap-align:center;flex:0 0 auto;object-fit:cover;cursor:zoom-in}
+.lb{position:fixed;inset:0;background:rgba(0,0,0,.92);z-index:99;display:none;align-items:center;justify-content:center;padding:14px}
+.lb.on{display:flex}.lb img{max-height:92vh;border-radius:10px}
+/* llegar */
+.vias{display:grid;gap:12px}
+.via{background:#fff;border-radius:16px;padding:16px;border-top:4px solid var(--naranja)}
+.via h3{font-size:1.15rem;margin-bottom:6px;color:var(--choc)}
+.via p{font-size:.93rem;line-height:1.5}
+.map{margin-top:14px;border-radius:18px;overflow:hidden;height:280px}
+.map iframe{width:100%;height:100%;border:0}
+/* foot */
+.share{background:linear-gradient(135deg,var(--cafe),var(--choc));color:#fff;border-radius:22px;padding:26px;text-align:center}
+.share h2{color:#fff}
+footer{background:var(--choc);color:#e9d7c4;text-align:center;padding:30px 18px 40px;font-size:.85rem;line-height:1.6}
+footer b{color:var(--dorado)}
+footer a{color:var(--dorado)}
+.fuentes{font-size:.75rem;opacity:.75;margin-top:10px}
+.reveal{opacity:0;transform:translateY(26px);transition:all .8s ease}
+.reveal.in{opacity:1;transform:none}
+.toast{position:fixed;left:50%;bottom:20px;transform:translateX(-50%) translateY(100px);background:var(--choc);color:#fff;padding:10px 18px;border-radius:999px;font-weight:600;transition:.4s;z-index:120}
+.toast.on{transform:translateX(-50%)}
+</style>
+</head>
+<body>
+
+<div class="bar">
+  <b>Fiestas de la <span>Empanada</span></b>
+  <div class="acts">
+    <button class="btn-s" id="btnRef" data-t="act">Actualizar</button>
+    <button class="btn-s on" data-lang="es">ES</button>
+    <button class="btn-s" data-lang="en">EN</button>
+  </div>
+</div>
+
+<header class="hero" id="inicio">
+  <div class="slide on" style="background-image:url(img/plaza-1.jpg)"></div>
+  <div class="slide" style="background-image:url(img/helado-frito-pareja.jpg)"></div>
+  <div class="slide" style="background-image:url(img/obleas-hojuelas.jpg)"></div>
+  <div class="slide" style="background-image:url(img/plaza-3.jpg)"></div>
+  <div class="slide" style="background-image:url(img/dispa.jpg)"></div>
+  <div class="hero-in">
+    <span class="chip" data-t="chip">25 años · Entrada libre</span>
+    <h1><span data-t="h1a">Fiestas de la Empanada,</span><em data-t="h1b">el Dulce y el Postre</em></h1>
+    <p data-t="sub">San Antonio de Pereira · Rionegro, Antioquia · 13 al 16 de noviembre de 2026</p>
+    <p class="lema" data-t="lema">“Lo que se cocina con paciencia sabe mejor”</p>
+    <div class="count" id="count"></div>
+    <div class="cta">
+      <a class="btn" href="#ahora" data-t="cta1">Qué hay ahora</a>
+      <a class="btn alt" href="#puestos" data-t="cta2">Ver los puestos</a>
+    </div>
+  </div>
+</header>
+
+<div class="ticker"><div data-t="tick">Empanadas · Hojuelas · Obleas · Solteritas · Merengones · Helado frito · Crepes · Patacones · Postres de la abuela · Música en vivo · El Combo de las Estrellas · Banda La Ley · Viejoteca · Chivas porreras · Carpa del Vinilo ·</div></div>
+
+<section id="ahora" class="reveal">
+  <div class="kick" data-t="k1">En tarima</div>
+  <h2 data-t="t1">Ahora en las fiestas</h2>
+  <div class="ahora">
+    <div class="reloj" id="reloj"></div>
+    <div class="live"><span class="dot"></span><span id="estado" data-t="vivo">En vivo</span></div>
+    <h3 id="nowTitle">—</h3>
+    <div class="hora" id="nowHora"></div>
+    <div class="next" id="next"></div>
+  </div>
+</section>
+
+<section id="programacion" class="reveal">
+  <div class="kick" data-t="k2">Cuatro días de fiesta</div>
+  <h2 data-t="t2">Programación completa</h2>
+  <div class="tabs" id="tabs"></div>
+  <div class="lista" id="lista"></div>
+</section>
+
+<section id="puestos" class="reveal">
+  <div class="kick" data-t="k3">Sabores de la plaza</div>
+  <h2 data-t="t3">Puestos que tienes que probar</h2>
+  <div class="grid" id="grid"></div>
+</section>
+
+<section id="galeria" class="reveal">
+  <div class="kick" data-t="k4">Así se vive</div>
+  <h2 data-t="t4">La plaza esta noche</h2>
+  <div class="gal" id="gal"></div>
+</section>
+
+<section id="llegar" class="reveal">
+  <div class="kick" data-t="k5">Movilidad</div>
+  <h2 data-t="t5">Cómo llegar</h2>
+  <div class="vias" id="vias"></div>
+  <div class="map"><iframe loading="lazy" src="https://maps.google.com/maps?q=Parque%20San%20Antonio%20de%20Pereira%2C%20Rionegro%2C%20Antioquia&z=16&output=embed" title="Mapa"></iframe></div>
+</section>
+
+<section class="reveal">
+  <div class="share">
+    <div class="kick" style="color:var(--dorado)" data-t="k6">Invita a tu gente</div>
+    <h2 data-t="t6">Que nadie se quede con las ganas</h2>
+    <p data-t="p6" style="margin-bottom:16px">Comparte la app por WhatsApp y nos vemos en la plaza.</p>
+    <button class="btn" id="btnShare" data-t="share">Compartir por WhatsApp</button>
+  </div>
+</section>
+
+<footer>
+  <p data-t="foot1">App hecha con cariño por <b>Vibras Positivas HM</b> · Caucasia, Antioquia</p>
+  <p data-t="foot2">¿Quieres una app así para tu negocio o tu evento?</p>
+  <p><a href="https://wa.me/573117700431" data-t="foot3">Escríbele a Harold por WhatsApp · 311 770 0431</a></p>
+  <p class="fuentes" data-t="fuentes">Programación: Alcaldía de Rionegro y Mi Oriente. Horarios sujetos a cambios por parte de los organizadores. Fotos tomadas en las fiestas por Vibras Positivas HM. Hora de Colombia (UTC-5).</p>
+</footer>
+
+<div class="lb" id="lb"><img alt=""></div>
+<div class="toast" id="toast"></div>
+
+<script>
+const TZ='America/Bogota';
+const T={
+es:{act:'Actualizar',chip:'25 años · Entrada libre',h1a:'Fiestas de la Empanada,',h1b:'el Dulce y el Postre',sub:'San Antonio de Pereira · Rionegro, Antioquia · 13 al 16 de noviembre de 2026',lema:'“Lo que se cocina con paciencia sabe mejor”',cta1:'Qué hay ahora',cta2:'Ver los puestos',tick:'Empanadas · Hojuelas · Obleas · Solteritas · Merengones · Helado frito · Crepes · Patacones · Postres de la abuela · Música en vivo · El Combo de las Estrellas · Banda La Ley · Viejoteca · Chivas porreras · Carpa del Vinilo ·',k1:'En tarima',t1:'Ahora en las fiestas',vivo:'En vivo',k2:'Cuatro días de fiesta',t2:'Programación completa',k3:'Sabores de la plaza',t3:'Puestos que tienes que probar',k4:'Así se vive',t4:'La plaza esta noche',k5:'Movilidad',t5:'Cómo llegar',k6:'Invita a tu gente',t6:'Que nadie se quede con las ganas',p6:'Comparte la app por WhatsApp y nos vemos en la plaza.',share:'Compartir por WhatsApp',foot1:'App hecha con cariño por <b>Vibras Positivas HM</b> · Caucasia, Antioquia',foot2:'¿Quieres una app así para tu negocio o tu evento?',foot3:'Escríbele a Harold por WhatsApp · 311 770 0431',fuentes:'Programación: Alcaldía de Rionegro y Mi Oriente. Horarios sujetos a cambios por parte de los organizadores. Fotos tomadas en las fiestas por Vibras Positivas HM. Hora de Colombia (UTC-5).',
+dias:'Días',horas:'Horas',min:'Min',seg:'Seg',antes:'Faltan para las fiestas',durante:'Las fiestas van',fin:'¡Gracias por venir! Nos vemos en la edición 26',luego:'Después',pausa:'Pausa en tarima — recorre los puestos',empieza:'Las fiestas arrancan el viernes 13',acabo:'Terminaron las fiestas 2026',hoy:'Hoy',concurso:'Concurso',ref:'Actualizado',ig:'Ver en Instagram',tel:'Hacer pedido',dnames:['Viernes 13','Sábado 14','Domingo 15','Lunes 16 · festivo'],dshort:['Vie','Sáb','Dom','Lun'],compartirTxt:'Vamos a las Fiestas de la Empanada, el Dulce y el Postre en San Antonio de Pereira (13 al 16 nov). Programación en vivo aquí: '},
+en:{act:'Refresh',chip:'25 years · Free entry',h1a:'Empanada, Sweets',h1b:'& Dessert Festival',sub:'San Antonio de Pereira · Rionegro, Antioquia · November 13–16, 2026',lema:'“What is cooked with patience tastes better”',cta1:'What’s on now',cta2:'See the stands',tick:'Empanadas · Hojuelas · Wafers · Solteritas · Meringues · Fried ice cream · Crepes · Patacones · Grandma’s desserts · Live music · El Combo de las Estrellas · Banda La Ley · Retro dance · Party buses · Vinyl tent ·',k1:'On stage',t1:'Happening now',vivo:'Live',k2:'Four days of celebration',t2:'Full schedule',k3:'Flavors of the square',t3:'Stands you must try',k4:'The vibe',t4:'The square tonight',k5:'Getting there',t5:'How to get there',k6:'Bring your people',t6:'Nobody should miss out',p6:'Share the app on WhatsApp and see you at the square.',share:'Share on WhatsApp',foot1:'App made with love by <b>Vibras Positivas HM</b> · Caucasia, Antioquia',foot2:'Want an app like this for your business or event?',foot3:'Message Harold on WhatsApp · +57 311 770 0431',fuentes:'Schedule: Rionegro Mayor’s Office and Mi Oriente. Times may change by the organizers. Photos taken at the festival by Vibras Positivas HM. Colombia time (UTC-5).',
+dias:'Days',horas:'Hours',min:'Min',seg:'Sec',antes:'Until the festival',durante:'Festival time',fin:'Thanks for coming! See you at the 26th edition',luego:'Up next',pausa:'Stage break — go explore the stands',empieza:'The festival starts Friday 13th',acabo:'The 2026 festival has ended',hoy:'Today',concurso:'Contest',ref:'Updated',ig:'See on Instagram',tel:'Order',dnames:['Friday 13','Saturday 14','Sunday 15','Monday 16 · holiday'],dshort:['Fri','Sat','Sun','Mon'],compartirTxt:'Let’s go to the Empanada, Sweets & Dessert Festival in San Antonio de Pereira (Nov 13–16). Live schedule here: '}
+};
+// [inicio ISO -05:00, es, en, concurso?]
+const P=[
+['2026-11-13T09:30','Juegos y actividades recreativas (IMER)','Games and recreation (IMER)'],
+['2026-11-13T12:00','Festival de danza','Dance festival'],
+['2026-11-13T17:00','ElectricVibes','ElectricVibes'],
+['2026-11-13T18:00','Tomm RT','Tomm RT'],
+['2026-11-13T19:00','Instalación oficial con el alcalde Jorge Rivas','Official opening with Mayor Jorge Rivas'],
+['2026-11-13T20:00','Banda Luna Roja','Banda Luna Roja'],
+['2026-11-13T21:30','Jimmy Sossa','Jimmy Sossa'],
+['2026-11-13T23:00','RM-70 (Rodrigo Mejía)','RM-70 (Rodrigo Mejía)'],
+['2026-11-14T00:00','Anni K','Anni K'],
+['2026-11-14T01:00','Héctor Rodríguez DJ','Héctor Rodríguez DJ'],
+['2026-11-14T09:00','Festival de danza','Dance festival'],
+['2026-11-14T13:00','Celeste Henao, la Niña Mariachi','Celeste Henao, the Mariachi Girl'],
+['2026-11-14T14:00','Song de la Tierra','Song de la Tierra'],
+['2026-11-14T15:00','Concursos de empanada y ají: maratón, la más sabrosa, empanada rionegrera; ají tradicional, de autor y de frutas','Empanada and hot sauce contests: marathon, tastiest, Rionegro-style; traditional, signature and fruit ají',1],
+['2026-11-14T18:00','Alegres Cantares (tuna)','Alegres Cantares (student band)'],
+['2026-11-14T19:00','Asincopados','Asincopados'],
+['2026-11-14T20:30','Santiago Arango (Grupo Cande)','Santiago Arango (Grupo Cande)'],
+['2026-11-14T22:00','El Combo de las Estrellas','El Combo de las Estrellas'],
+['2026-11-15T00:00','Daniela Arias (Son Tradición)','Daniela Arias (Son Tradición)'],
+['2026-11-15T01:00','DJ Dagorxx','DJ Dagorxx'],
+['2026-11-15T09:00','Festival de danza','Dance festival'],
+['2026-11-15T10:00','La Carpa del Vinilo (hasta las 6:00 p. m.) y tertulia de historias musicales','Vinyl Tent (until 6:00 p.m.) and music-history talk'],
+['2026-11-15T12:00','Caravana de chivas porreras','Party-bus (chiva) parade'],
+['2026-11-15T13:00','Encuentro de DJs: Cholo Paisa, Ney Echeverry y Alex el Negro','DJ meetup: Cholo Paisa, Ney Echeverry and Alex el Negro'],
+['2026-11-15T15:00','Comelones de empanada','Empanada eating contest',1],
+['2026-11-15T16:15','Show de baile','Dance show'],
+['2026-11-15T16:30','Encuentro de DJs','DJ meetup'],
+['2026-11-15T17:30','Comelones de empanada (segunda ronda)','Empanada eating contest (round two)',1],
+['2026-11-15T18:30','Álvaro Puerta y Las Divas de la Campana','Álvaro Puerta and Las Divas de la Campana'],
+['2026-11-15T19:30','Edgar Leandro y su Orquesta','Edgar Leandro and his Orchestra'],
+['2026-11-15T20:30','Simulacro decembrino (La Escena)','December show (La Escena)'],
+['2026-11-15T21:30','Los Famosos Bailes de Uriel','Los Famosos Bailes de Uriel'],
+['2026-11-15T22:30','Orquesta Medellín Charanga','Orquesta Medellín Charanga'],
+['2026-11-15T23:30','La Gran Viejoteca','The Great Retro Dance (Viejoteca)'],
+['2026-11-16T09:00','Festival de danza','Dance festival'],
+['2026-11-16T14:00','Concursos de dulces y postres: tradicional, innovador y mejor temática','Sweets and dessert contests: traditional, innovative and best theme',1],
+['2026-11-16T16:00','Festival de danza','Dance festival'],
+['2026-11-16T17:30','Dúo Renacer','Dúo Renacer'],
+['2026-11-16T18:15','DJ Jorgyo','DJ Jorgyo'],
+['2026-11-16T19:00','Julieth Montoya (La Guaca)','Julieth Montoya (La Guaca)'],
+['2026-11-16T19:45','Ambiente Sonoro','Ambiente Sonoro'],
+['2026-11-16T20:45','Andru Palacios','Andru Palacios'],
+['2026-11-16T21:45','Banda La Ley (cierre)','Banda La Ley (closing act)']
+].map(r=>({t:new Date(r[0]+':00-05:00'),es:r[1],en:r[2],c:!!r[3]}));
+const FIN=new Date('2026-11-16T23:00:00-05:00'),INI=P[0].t;
+// día de fiesta (las de madrugada cuentan al día anterior)
+const diaDe=d=>{const h=new Date(d.getTime()-5*3600e3-4*3600e3);return h.getUTCDate()-13};
+const S=[
+{img:'helado-frito-tablero.jpg',tag:'Helado frito',n:'Helado Frito',es:'Bola de helado apanada y frita al momento, con salsa de mora, fresas, chocolate y chantilly. Crocante por fuera, frío por dentro: el antojo de la noche.',en:'A scoop of ice cream breaded and fried to order, with blackberry sauce, strawberries, chocolate and whipped cream. Crunchy outside, cold inside.',ig:'mongos_heladofrito'},
+{img:'hojuelas-gigantes.jpg',tag:'Puesto #28',n:'Hojuelas Las Gigantes',es:'“Tradiciones de mi abuela”: hojuelas gigantes, obleas, solteritas y mucho más, en el punto de encuentro de la tradición.',en:'“Grandma’s traditions”: giant hojuelas, wafers, solteritas and much more.'},
+{img:'obleas-hojuelas.jpg',tag:'Dulces típicos',n:'Oblea, hojuela y café',es:'Hojuela tradicional y especial, oblea especial, solterita tradicional y especial, café caliente y una mesa llena de dulces caseros de la región.',en:'Traditional and special hojuelas, special wafers, solteritas, hot coffee and a table full of homemade regional sweets.'},
+{img:'crepes-san.jpg',tag:'Crepes',n:'Crepes San',es:'Crepes dulces para armar como quieras: 2 salsas, 2 frutas, Nutella y helado.',en:'Sweet crepes your way: 2 sauces, 2 fruits, Nutella and ice cream.',menu:[['Crepes dulces','15.000'],['Salpicón','12.000'],['Crema chantilly','3.000'],['Queso rallado','5.000'],['Galleta Oreo','1.500'],['Zucaritas / Maní','1.500'],['Fruta adicional','2.000']]},
+{img:'dispa.jpg',tag:'Patacones',n:'D’Isa · Patacones y Piquetiadero',es:'Patacones, picadas y bolitas en vaso para los que también quieren algo de sal. “Disfruta del sabor en tu paladar”.',en:'Patacones, mixed platters and fried bites in a cup for those who want something savory.'},
+{img:'merengones.jpg',tag:'Merengones',n:'Deliciosos Merengones',es:'Merengones, cocadas, bocadillos y dulces de todos los colores. Reciben pedidos por teléfono.',en:'Meringue desserts, coconut candy and colorful sweets. They take phone orders.',tel:'6045480758',telv:'(604) 548 0758'}
+];
+const G=['plaza-1','plaza-2','plaza-3','helado-frito-letrero','helado-frito-preparacion','helado-frito-pareja','obleas-hojuelas','hojuelas-gigantes','crepes-san','dispa','merengones'];
+const V={es:[['Cierres alrededor del parque','Hay cierres totales en seis accesos al parque principal de San Antonio de Pereira durante los cuatro días. Lo mejor es llegar a pie desde donde parquees.'],['Ruta habilitada','Variante San Antonio por la carrera 55C hasta la glorieta de la Institución Educativa San Antonio, continuando hacia la urbanización Medieval. También se puede circular entre la glorieta de Sidney (Casa Mía) y la glorieta de Ipanema.'],['Carrera 55B en un solo sentido','Entre las calles 19AB y 21, desde la Clínica Veterinaria San Antonio hasta el mall La Placita, con cierre controlado. Sigue las indicaciones de los agentes de tránsito.']],
+en:[['Closures around the park','Six access points to the main park are fully closed during the four days. Best to park and walk in.'],['Open route','Take the San Antonio bypass along Carrera 55C to the roundabout at the San Antonio school, continuing toward the Medieval development. Traffic also flows between the Sidney (Casa Mía) and Ipanema roundabouts.'],['Carrera 55B one-way','Between Calles 19AB and 21, from the San Antonio Veterinary Clinic to La Placita mall, with controlled closure. Follow traffic agents.']]};
+let L='es',diaSel=null;
+try{L=localStorage.getItem('lang')||'es'}catch(e){L='es'}
+const $=s=>document.querySelector(s);
+const fmt=d=>d.toLocaleTimeString(L==='es'?'es-CO':'en-US',{hour:'numeric',minute:'2-digit',timeZone:TZ});
+function lang(l){L=l;try{localStorage.setItem('lang',l)}catch(e){}
+ document.documentElement.lang=l;
+ document.querySelectorAll('[data-t]').forEach(e=>{const k=e.dataset.t;if(T[l][k])e.innerHTML=T[l][k]});
+ document.querySelectorAll('[data-lang]').forEach(b=>b.classList.toggle('on',b.dataset.lang===l));
+ puestos();vias();tabs();ahora();}
+function count(){const n=new Date(),tr=T[L];let ms,lbl;
+ if(n<INI){ms=INI-n;lbl=tr.antes}else if(n<FIN){ms=FIN-n;lbl=''}else{$('#count').innerHTML=`<div style="min-width:auto"><small>${tr.fin}</small></div>`;return}
+ if(n>=INI){$('#count').innerHTML=`<div style="min-width:auto;display:flex;align-items:center;gap:8px"><span class="dot"></span><b style="font-size:1rem">${tr.vivo.toUpperCase()} · ${tr.dnames[Math.max(0,Math.min(3,diaDe(n)))]}</b></div>`;return}
+ const d=Math.floor(ms/864e5),h=Math.floor(ms/36e5)%24,m=Math.floor(ms/6e4)%60,s=Math.floor(ms/1e3)%60;
+ $('#count').innerHTML=[[d,tr.dias],[h,tr.horas],[m,tr.min],[s,tr.seg]].map(x=>`<div><b>${x[0]}</b><small>${x[1]}</small></div>`).join('')}
+function ahora(){const n=new Date(),tr=T[L];
+ $('#reloj').textContent=fmt(n);
+ let i=-1;P.forEach((p,k)=>{if(p.t<=n)i=k});
+ const cur=P[i],nx=P.slice(i+1,i+4);
+ if(n<INI){$('#nowTitle').textContent=tr.empieza;$('#nowHora').textContent='';}
+ else if(n>=FIN){$('#nowTitle').textContent=tr.acabo;$('#nowHora').textContent='';}
+ else if(cur&&(!P[i+1]||n<P[i+1].t)&&n-cur.t<3*36e5){$('#nowTitle').textContent=cur[L];$('#nowHora').textContent=fmt(cur.t)+(P[i+1]?' – '+fmt(P[i+1].t):'')}
+ else{$('#nowTitle').textContent=tr.pausa;$('#nowHora').textContent=''}
+ $('#next').innerHTML=(nx.length&&n<FIN?`<div style="opacity:.7;font-size:.8rem;text-transform:uppercase;letter-spacing:1px">${tr.luego}</div>`:'')+nx.map(p=>`<div><b>${fmt(p.t)}</b><span>${p[L]}</span></div>`).join('')}
+function tabs(){const n=new Date(),hoy=Math.max(0,Math.min(3,diaDe(n)));if(diaSel===null)diaSel=(n>=INI&&n<FIN)?hoy:0;
+ const tr=T[L];$('#tabs').innerHTML=tr.dnames.map((d,k)=>`<button class="tab ${k===diaSel?'on':''} ${(n>=INI&&n<FIN&&k===hoy)?'hoy':''}" data-d="${k}">${d}${(n>=INI&&n<FIN&&k===hoy)?`<small>${tr.hoy}</small>`:'<small>nov 2026</small>'}</button>`).join('');
+ document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{diaSel=+b.dataset.d;tabs()});
+ const items=P.filter(p=>diaDe(p.t)===diaSel);
+ $('#lista').innerHTML=items.map((p,k)=>{const sig=P[P.indexOf(p)+1];const now=p.t<=n&&(!sig||n<sig.t)&&n<FIN;const past=!now&&sig&&sig.t<=n;
+  return `<div class="item ${now?'now':''} ${past?'past':''}"><b>${fmt(p.t)}</b><div>${p[L]}${p.c?`<br><span class="tag c">${tr.concurso}</span>`:''}${now?`<br><span class="tag" style="background:var(--fresa);color:#fff">${tr.vivo}</span>`:''}</div></div>`}).join('')}
+function puestos(){const tr=T[L];$('#grid').innerHTML=S.map(s=>`<article class="card"><div class="ph" style="background-image:url(img/${s.img})"><span>${s.tag}</span></div><div class="bd"><h3>${s.n}</h3><p>${s[L]}</p>${s.menu?`<div class="menu">${s.menu.map(m=>`<div><span>${m[0]}</span><b>$${m[1]}</b></div>`).join('')}</div>`:''}${s.ig?`<a class="lnk" target="_blank" rel="noopener" href="https://instagram.com/${s.ig}">${tr.ig} · @${s.ig}</a>`:''}${s.tel?`<a class="lnk" href="tel:${s.tel}">${tr.tel} · ${s.telv}</a>`:''}</div></article>`).join('')}
+function vias(){$('#vias').innerHTML=V[L].map(v=>`<div class="via"><h3>${v[0]}</h3><p>${v[1]}</p></div>`).join('')}
+$('#gal').innerHTML=G.map(g=>`<img loading="lazy" src="img/${g}.jpg" alt="">`).join('');
+document.querySelectorAll('#gal img').forEach(i=>i.onclick=()=>{$('#lb img').src=i.src;$('#lb').classList.add('on')});
+$('#lb').onclick=()=>$('#lb').classList.remove('on');
+document.querySelectorAll('[data-lang]').forEach(b=>b.onclick=()=>lang(b.dataset.lang));
+function toast(t){const e=$('#toast');e.textContent=t;e.classList.add('on');setTimeout(()=>e.classList.remove('on'),1800)}
+$('#btnRef').onclick=()=>{diaSel=null;tabs();ahora();count();toast(T[L].ref+' · '+fmt(new Date()))};
+$('#btnShare').onclick=()=>{const u=location.href.split('#')[0];const t=T[L].compartirTxt+u;
+ if(navigator.share)navigator.share({title:document.title,text:t,url:u}).catch(()=>{});else location.href='https://wa.me/?text='+encodeURIComponent(t)};
+// slides
+const sl=document.querySelectorAll('.slide');let si=0;setInterval(()=>{sl[si].classList.remove('on');si=(si+1)%sl.length;sl[si].classList.add('on')},5000);
+// reveal
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('in')}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(e=>io.observe(e));
+document.addEventListener('visibilitychange',()=>{if(!document.hidden){diaSel=null;tabs();ahora()}});
+lang(L);count();setInterval(count,1000);setInterval(()=>{ahora();tabs()},30000);
+if('serviceWorker' in navigator)navigator.serviceWorker.register('sw.js').catch(()=>{});
+</script>
+</body>
+</html>
